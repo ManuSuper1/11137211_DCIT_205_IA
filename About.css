@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.Main{
+width: 100%;
+background-color: white;
+background-position: center;
+background-size: cover;
+height: auto;
+}
+.navbar{
+width: 1100px;
+height: 67px;
+margin: auto;
+}
+
+.icon{
+width: 100px;
+float: left;
+height: 70px;
+}
+
+.logo{
+color: rgb(43, 26, 89);
+
+font-size: 13px;
+font-family: Arial;
+padding-left: 10px;
+float: left;
+padding-top: 8px;
+}
+h1{
+    text-align: center;
+    color: rgb(43, 26, 89);
+}
+.menu{
+width: 800px;
+float: right;
+height: 70px;
+}
+
+ul{
+float: left;
+display: flex;
+justify-content: right;
+align-items: right;
+}
+
+ul li{
+list-style: none;
+margin-left: 50px;
+margin-top: 20px;
+font-size: 15px;
+}
+
+ul li a{
+text-decoration: none;
+color: black;
+font-family: Arial;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+color: blue;
+}
+.him{
+    display: flex;
+    flex-direction: row;
+}
+footer {
+background-color: rgb(43, 26, 89);
+padding: 40px;
+text-align: center;
+display: flex;
+flex-direction: row;
+}
+
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+footer {
+margin-top: auto;
+}
